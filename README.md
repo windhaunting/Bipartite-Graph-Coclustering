@@ -13,10 +13,25 @@ them. The given data is a bipartite graph and then modeled as a two dimenional m
 
 ## Installation
 
+- Hadoop
+- Spark
 
 
 ## BGC flow
 
-(1) Read from table to create bipartite graph
 
-(2) Bipartite graph Spectral colustering implemented in Spark
+- Read from a table of pairs 
+
+- Create bipartite graph
+
+- Create the adjacency matrix
+
+- Bipartite graph Spectral colustering
+
+- Create Laplacian matrix
+
+- Do Singular value decomposition to get singular matrix
+
+- Run k-means algorithm on the singular matrix
+
+
