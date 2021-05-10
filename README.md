@@ -8,7 +8,7 @@ them. The given data is a bipartite graph and then modeled as a two dimenional m
 ## Table of content
 - [Installation](#installation)
  
-- [BGC flow](#BGC flow)
+- [BGC flow](#BGC-flow)
 
 
 ## Installation
